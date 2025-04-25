@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhijeet's Data Engineering Blog</title>
+    <title>Abhijeet's Data Engineering Insights</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f9fc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
-            color: #333;
         }
         header {
-            background-color: #0a66c2;
-            color: white;
-            padding: 2rem;
+            background-color: #1f2937;
+            color: #fff;
+            padding: 1.5rem;
             text-align: center;
         }
         main {
-            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
         }
-        .links a {
-            display: block;
-            margin: 0.5rem 0;
-            color: #0a66c2;
+        section {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            color: #1f2937;
+        }
+        a {
+            color: #1d4ed8;
             text-decoration: none;
         }
-        .links a:hover {
+        a:hover {
             text-decoration: underline;
         }
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #e1e8f0;
+            background-color: #e5e7eb;
             margin-top: 2rem;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Abhijeet's Data Engineering Insights</h1>
-        <p>Sharing learnings, experiences, and practical solutions from the world of Big Data</p>
+        <h1>Welcome to Abhijeet's Data Engineering Insights</h1>
+        <p>Exploring Spark, SQL, Azure, Databricks & More</p>
     </header>
     <main>
         <section>
-            <h2>Welcome!</h2>
-            <p>
-                I'm Abhijeet Verma, a Data Engineering Lead with expertise in Apache Spark, SQL, Python, Azure, Scala, and Databricks.
-                This page is where I share my journey, technical findings, and tips for fellow data engineers.
-            </p>
+            <h2>About Me</h2>
+            <p>Hi, I'm Abhijeet Verma, a passionate data engineer. I enjoy building scalable data pipelines and working with cloud-native technologies. You can connect with me on <a href="https://www.linkedin.com/in/abhijeetverma10496" target="_blank">LinkedIn</a> and check out my <a href="https://github.com/abhiranu098/data-engineering-insights" target="_blank">GitHub repository</a> for more insights.</p>
         </section>
-        <section class="links">
-            <h2>Connect with Me</h2>
-            <a href="https://www.linkedin.com/in/abhijeetverma10496" target="_blank">LinkedIn: abhijeetverma10496</a>
-            <a href="https://github.com/abhiranu098/data-engineering-insights" target="_blank">GitHub: data-engineering-insights</a>
-        </section>
+
         <section>
-            <h2>What You'll Find Here</h2>
+            <h2>Featured Topics</h2>
             <ul>
-                <li>Real-world case studies from data migration and transformation projects</li>
-                <li>Performance tuning techniques for Spark and Databricks</li>
-                <li>Terraform & Azure integration guides</li>
-                <li>Scalable data architecture best practices</li>
+                <li><a href="#spark">Optimizing Apache Spark Jobs</a></li>
+                <li><a href="#databricks">Databricks Lakehouse Architecture</a></li>
+                <li><a href="#sql">Advanced SQL Techniques</a></li>
+                <li><a href="#airflow">Airflow for Workflow Orchestration</a></li>
+                <li><a href="#azure">Data Engineering with Azure</a></li>
             </ul>
+        </section>
+
+        <section id="databricks">
+            <h2>Databricks Resources</h2>
+            <p>Databricks is a powerful platform for big data analytics and machine learning. Learn more at the <a href="https://www.databricks.com/" target="_blank">official Databricks website</a>.</p>
+        </section>
+
+        <section>
+            <h2>Learning & Findings</h2>
+            <p>I frequently share learnings from real-world projects, including performance tuning, data transformations, and automation workflows. Stay tuned for upcoming blog posts right here!</p>
         </section>
     </main>
     <footer>
-        &copy; 2025 Abhijeet Verma. All rights reserved.
+        <p>&copy; 2025 Abhijeet Verma | Built with ❤️ for the data community</p>
     </footer>
 </body>
+
 </html>
