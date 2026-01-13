@@ -80,5 +80,6 @@ print(Employee_details[5:index_comma])
 #Dictionary: Collection of key-value pairs. Example: {"key": "value"}
 #Range: Immutable sequence of numbers. Example: range(0, 10)
 
+
 for i in range(1, 11):
     print(i)
